@@ -118,3 +118,9 @@ lead-scoring-allocation/
 
 ## Tech Stack
 `Python` `Pandas` `Scikit-learn` `MySQL/SQL` `Matplotlib` `Seaborn` `Power BI`
+
+## Author & Contact
+- **Author:** Shamila Shirin
+- **Email:** shamilashirin32@gmail.com
+- **LinkedIn:** [Shamila Shirin](https://www.linkedin.com/in/shamila-shirin)
+- **GitHub:** [shamila-shirin-mk](https://github.com/shamila-shirin-mk)
