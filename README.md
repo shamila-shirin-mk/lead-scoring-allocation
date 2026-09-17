@@ -5,7 +5,7 @@ This project solves two connected problems: (1) predicting which leads are
 likely to convert into paying customers, and (2) using those predictions to
 fairly and effectively distribute leads across a sales team.
 
-## Dataset
+## 📊 Dataset
 Real lead data from an EdTech company (X Education), sourced from Kaggle —
 ~9,240 leads, including behavior data like time spent on the website, lead
 source, and occupation. Column definitions are documented in
@@ -53,7 +53,7 @@ Sorted leads by `lead_score`. Top 25% assigned to a simulated top-performing
 rep (Rep_A); remaining 75% distributed evenly across 3 other reps using
 round-robin.
 
-## Result — Does It Actually Work?
+## 🎯 Result — Does It Actually Work?
 To test whether the scoring system was actually working — not just
 distributing leads randomly — I compared the conversion rate of each rep's
 leads, since every rep was given the exact same count of leads by design.
@@ -64,7 +64,7 @@ number of leads, this difference in rate proves the lead-scoring model is
 genuinely identifying which leads are more likely to buy — not just
 producing plausible-looking scores.
 
-## Dashboard
+## 📈 Dashboard
 Built an interactive Power BI dashboard to make these results usable by a
 non-technical sales manager — without needing to open Python or understand
 the model at all.
@@ -122,5 +122,5 @@ lead-scoring-allocation/
 ## Author & Contact
 - **Author:** Shamila Shirin
 - **Email:** shamilashirin32@gmail.com
-- **LinkedIn:** [Shamila Shirin](https://www.linkedin.com/in/shamila-shirin)
-- **GitHub:** [shamila-shirin-mk](https://github.com/shamila-shirin-mk)
+- **LinkedIn:** 🔗 [Shamila Shirin](https://www.linkedin.com/in/shamila-shirin)
+- **GitHub:** 🔗 [shamila-shirin-mk](https://github.com/shamila-shirin-mk)
