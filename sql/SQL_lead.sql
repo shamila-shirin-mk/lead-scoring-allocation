@@ -58,7 +58,7 @@ SELECT
         ORDER BY `Total Time Spent on Website` DESC
     ) AS engagement_rank
 FROM leads
-ORDER BY `Lead Source`, engagement_rank
+ORDER BY `Lead Source`, engagement_rank -- First arrange by Lead Source, and within each Lead Source arrange by engagement rank.
 LIMIT 15;
 
 SELECT 
@@ -71,7 +71,7 @@ SELECT
     ) AS engagement_rank
 FROM leads
 WHERE `Lead Source` IN ('Google', 'Direct Traffic', 'Olark Chat')
-ORDER BY `Lead Source`, engagement_rank
+ORDER BY `Lead Source`, engagement_rank 
 LIMIT 15;
 
 -- it's the difference between RANK() (which leaves a "gap" after ties — 1, 2, 3, 3, 5) and a similar function called DENSE_RANK() (which doesn't leave gaps — 1, 2, 3, 3, 4).
