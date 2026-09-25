@@ -112,15 +112,22 @@ lead-scoring-allocation/
 ├── dashboard/
 │   ├── lead_scoring_dashboard.pbix
 │   └── dashboard_screenshot.png
+├── .gitignore
+├── LICENSE
 ├── notes.md
+├── requirements.txt
 └── README.md
 ```
 
 ## Tech Stack
 `Python` `Pandas` `Scikit-learn` `MySQL/SQL` `Matplotlib` `Seaborn` `Power BI`
 
+## License
+This project is open-source and available under the [MIT License](LICENSE).
+
 ## Author & Contact
 - **Author:** Shamila Shirin
 - **Email:** shamilashirin32@gmail.com
 - **LinkedIn:** 🔗 [Shamila Shirin](https://www.linkedin.com/in/shamila-shirin)
 - **GitHub:** 🔗 [shamila-shirin-mk](https://github.com/shamila-shirin-mk)
+
